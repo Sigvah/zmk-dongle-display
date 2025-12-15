@@ -32,8 +32,6 @@ const LV_ATTRIBUTE_MEM_ALIGN LV_ATTRIBUTE_LARGE_CONST LV_ATTRIBUTE_IMG_SPEEDOMET
 
 const lv_img_dsc_t sym_speedometer = {
   .header.cf = LV_COLOR_FORMAT_I1,
-  .header.always_zero = 0,
-  .header.reserved = 0,
   .header.w = 14,
   .header.h = 14,
   .data_size = 36,

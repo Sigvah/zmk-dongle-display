@@ -36,8 +36,6 @@ const LV_ATTRIBUTE_MEM_ALIGN LV_ATTRIBUTE_LARGE_CONST LV_ATTRIBUTE_IMG_CONTROL u
 
 const lv_img_dsc_t control_icon = {
   .header.cf = LV_COLOR_FORMAT_I1,
-  .header.always_zero = 0,
-  .header.reserved = 0,
   .header.w = 14,
   .header.h = 14,
   .data_size = 36,
@@ -70,8 +68,6 @@ const LV_ATTRIBUTE_MEM_ALIGN LV_ATTRIBUTE_LARGE_CONST LV_ATTRIBUTE_IMG_SHIFT uin
 
 const lv_img_dsc_t shift_icon = {
   .header.cf = LV_COLOR_FORMAT_I1,
-  .header.always_zero = 0,
-  .header.reserved = 0,
   .header.w = 14,
   .header.h = 14,
   .data_size = 36,
@@ -104,8 +100,6 @@ const LV_ATTRIBUTE_MEM_ALIGN LV_ATTRIBUTE_LARGE_CONST LV_ATTRIBUTE_IMG_ALT uint8
 
 const lv_img_dsc_t alt_icon = {
   .header.cf = LV_COLOR_FORMAT_I1,
-  .header.always_zero = 0,
-  .header.reserved = 0,
   .header.w = 14,
   .header.h = 14,
   .data_size = 36,
@@ -138,8 +132,6 @@ const LV_ATTRIBUTE_MEM_ALIGN LV_ATTRIBUTE_LARGE_CONST LV_ATTRIBUTE_IMG_WIN uint8
 
 const lv_img_dsc_t win_icon = {
   .header.cf = LV_COLOR_FORMAT_I1,
-  .header.always_zero = 0,
-  .header.reserved = 0,
   .header.w = 14,
   .header.h = 14,
   .data_size = 36,
@@ -172,8 +164,6 @@ const LV_ATTRIBUTE_MEM_ALIGN LV_ATTRIBUTE_LARGE_CONST LV_ATTRIBUTE_IMG_CMD uint8
 
 const lv_img_dsc_t cmd_icon = {
   .header.cf = LV_COLOR_FORMAT_I1,
-  .header.always_zero = 0,
-  .header.reserved = 0,
   .header.w = 14,
   .header.h = 14,
   .data_size = 36,
@@ -206,8 +196,6 @@ const LV_ATTRIBUTE_MEM_ALIGN LV_ATTRIBUTE_LARGE_CONST LV_ATTRIBUTE_IMG_OPT uint8
 
 const lv_img_dsc_t opt_icon = {
   .header.cf = LV_COLOR_FORMAT_I1,
-  .header.always_zero = 0,
-  .header.reserved = 0,
   .header.w = 14,
   .header.h = 14,
   .data_size = 36,
